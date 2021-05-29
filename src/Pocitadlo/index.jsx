@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export const Pocitadlo = (props) => {
-  const [pocet, setPocet] = useState(0);
+  const [pocet, setPocet] = useState(props.hlasy);
 
   return (
     <>
